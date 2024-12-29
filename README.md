@@ -23,9 +23,9 @@ Update later
 
 ## Open-ended PitVQA Dataset
 
-Our Open-ended PitVQA dataset comprises 25 videos of endoscopic pituitary surgeries from the The National Hospital of Neurology and Neurosurgery in London, United Kingdom. All videos were annotated for the surgical phases, steps, instruments present and operation notes guided by a standardised annotation framework, which was derived from a preceding international consensus study on pituitary surgery workflow [16]. Annotation was performed collaboratively by 2 neurosurgical residents with operative pituitary experience and checked by an attending neurosurgeon.  
+Our Open-ended PitVQA dataset comprises 25 videos of endoscopic pituitary surgeries from the The National Hospital of Neurology and Neurosurgery in London, United Kingdom. All videos were annotated for the surgical phases, steps, instruments present and operation notes guided by a standardised annotation framework, which was derived from a preceding international consensus study on pituitary surgery workflow. Annotation was performed collaboratively by 2 neurosurgical residents with operative pituitary experience and checked by an attending neurosurgeon.  
 We extracted image frames from each video at 1 fps and removed any frames that were blurred or occluded. Ultimately, we obtained a total of 101,803 frames, with the videos of minimum and maximum length yielding 2,443 and 7,179 frames, respectively. We acquired frame-wise question-answer pairs for all the types of the annotation. Overall, there are 745,972 question-answer pairs from 101,803 frames, which is around 8 pairs for each frame.  
-This work is an extension of our <a href="https://github.com/mobarakol/PitVQA/tree/main">previous work</a>.
+This work is an extension of our previous work [PitVQA](https://github.com/mobarakol/PitVQA). The Open-ended PitVQA dataset uses the same videos and frames as PitVQA dataset. We will release the QA pairs for Open-ended PitVQA dataset soon.
 
 <!-- 
 <div align='center'>
