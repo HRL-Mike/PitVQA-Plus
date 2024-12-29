@@ -55,7 +55,7 @@ python main.py --dataset=endo18 --epochs=60 --batch_size=64 --lr=0.00002 --seq_l
 --lora_alpha 16 16 16 12 12 12 8 8 8 6 6 6
 ```
 
-For PitVQA dataset:
+For Open-ended PitVQA dataset:
 ```
 python main.py --dataset=open-pit --epochs=50 --batch_size=64 --lr=0.00002 --seq_length=50
 --mora_base_rank=8
