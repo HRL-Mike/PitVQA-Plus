@@ -14,7 +14,7 @@ Conference / Journal name
 </div> 
 
 ## PitVQA++ Network
-Coming soon
+Update later
 <!-- 
 <div align='center'>
 <img src='https://github.com/mobarakol/PitVQA/blob/main/assets/model_archi_3.png' width=750>
@@ -48,19 +48,30 @@ val_seq = ['02', '06', '12', '13', '24']
 ## Training Command:
 For EndoVis18-VQA dataset:
 ```
-add command
+python main.py --dataset=endo18 --epochs=60 --batch_size=64 --lr=0.00002 --seq_length=32
+--mora_base_rank=8
+--mora_coeff 24 24 24 20 20 20 16 16 12 12 8 8
+--lora_rank 16 16 16 12 12 12 8 8 8 6 6 6
+--lora_alpha 16 16 16 12 12 12 8 8 8 6 6 6
 ```
 
 For PitVQA dataset:
 ```
-add command
+python main.py --dataset=open-pit --epochs=50 --batch_size=64 --lr=0.00002 --seq_length=50
+--mora_base_rank=8
+--mora_coeff 48 48 44 44 40 40 36 36 32 32 28 28
+--lora_rank 24 24 24 22 22 22 20 20 18 18 16 16
+--lora_alpha 24 24 24 22 22 22 20 20 18 18 16 16
 ```
 ## Acknowledgement
 The implementation of PitVQA relies on resources from <a href="https://github.com/salesforce/BLIP">BLIP</a>, <a href="https://github.com/huggingface/transformers">Huggingface Transformers</a>, <a href="https://github.com/rwightman/pytorch-image-models/tree/master/timm">timm</a> and our previous work [SurgicalGPT](https://github.com/lalithjets/SurgicalGPT). We thank the original authors for their open-sourcing.
 
+<!-- 
 ## Citation
 If you use this code for your research, please cite our paper.
+
 
 ```
 Add reference
 ```
+-->
