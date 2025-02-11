@@ -48,7 +48,7 @@ val_seq = ['02', '06', '12', '13', '24']
 ## Training Command:
 For EndoVis18-VQA dataset:
 ```
-python main.py --dataset=endo18 --epochs=50 --batch_size=64 --lr=0.0000002 --seq_length=64
+python main.py --dataset=endo --epochs=50 --batch_size=64 --lr=0.0000002 --seq_length=64
 --mora_base_rank=8
 --mora_coeff 26 26 24 24 22 22 20 20 18 18 16 16
 --lora_rank 18 18 16 16 14 14 12 12 10 10 8 8
@@ -57,7 +57,7 @@ python main.py --dataset=endo18 --epochs=50 --batch_size=64 --lr=0.0000002 --seq
 
 For Open-ended PitVQA dataset:
 ```
-python main.py --dataset=open-pit --epochs=50 --batch_size=64 --lr=0.0000002 --seq_length=100
+python main.py --dataset=pit --epochs=50 --batch_size=64 --lr=0.0000002 --seq_length=100
 --mora_base_rank=8
 --mora_coeff 56 56 48 48 40 40 32 32 24 24 16 16
 --lora_rank 28 28 24 24 20 20 16 16 12 12 8 8
