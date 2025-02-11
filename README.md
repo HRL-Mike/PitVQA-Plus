@@ -8,7 +8,7 @@
 | **[[```arXiv```](<https://arxiv.org/>)]** | **[[```Paper```](<https://link.springer.com/>)]** | **[[```Colab Demo```](<https://github.com/>)]**|
 |:-------------------:|:-------------------:|:-------------------:|
     
-Conference / Journal name
+The dataset and pretrained weights will be released upon acceptance.
 ---
 
 </div> 
@@ -48,20 +48,20 @@ val_seq = ['02', '06', '12', '13', '24']
 ## Training Command:
 For EndoVis18-VQA dataset:
 ```
-python main.py --dataset=endo18 --epochs=60 --batch_size=64 --lr=0.00002 --seq_length=32
+python main.py --dataset=endo18 --epochs=50 --batch_size=64 --lr=0.0000002 --seq_length=64
 --mora_base_rank=8
---mora_coeff 24 24 24 20 20 20 16 16 12 12 8 8
---lora_rank 16 16 16 12 12 12 8 8 8 6 6 6
---lora_alpha 16 16 16 12 12 12 8 8 8 6 6 6
+--mora_coeff 26 26 24 24 22 22 20 20 18 18 16 16
+--lora_rank 18 18 16 16 14 14 12 12 10 10 8 8
+--lora_alpha 18 18 16 16 14 14 12 12 10 10 8 8
 ```
 
 For Open-ended PitVQA dataset:
 ```
-python main.py --dataset=open-pit --epochs=50 --batch_size=64 --lr=0.00002 --seq_length=50
+python main.py --dataset=open-pit --epochs=50 --batch_size=64 --lr=0.0000002 --seq_length=100
 --mora_base_rank=8
---mora_coeff 48 48 44 44 40 40 36 36 32 32 28 28
---lora_rank 24 24 24 22 22 22 20 20 18 18 16 16
---lora_alpha 24 24 24 22 22 22 20 20 18 18 16 16
+--mora_coeff 56 56 48 48 40 40 32 32 24 24 16 16
+--lora_rank 28 28 24 24 20 20 16 16 12 12 8 8
+--lora_alpha 28 28 24 24 20 20 16 16 12 12 8 8
 ```
 ## Acknowledgement
 The implementation of PitVQA++ relies on resources from <a href="https://github.com/salesforce/BLIP">BLIP</a>, <a href="https://github.com/huggingface/transformers">Huggingface Transformers</a>, <a href="https://github.com/rwightman/pytorch-image-models/tree/master/timm">timm</a> and our previous work [PitVQA](https://github.com/mobarakol/PitVQA). We thank the original authors for their open-sourcing.
