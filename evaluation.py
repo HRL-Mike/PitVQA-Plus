@@ -16,7 +16,7 @@ import evaluate
 from nltk.translate.bleu_score import corpus_bleu
 
 from dataloader import PitVQASentence
-from model import PitVQAGen
+from model import PitVQAPlus
 
 import warnings
 warnings.filterwarnings('ignore')
@@ -194,8 +194,8 @@ if __name__ == '__main__':
     lora_alpha = [28, 28, 24, 24, 20, 20, 16, 16, 12, 12, 8, 8]
     dropout = 0.1
     
-    model = PitVQAGen(mora_base_rank=mora_base_rank, mora_rank_coefficients=mora_coeff,
-                      lora_rank=lora_rank, lora_alpha=lora_alpha, dropout=dropout)
+    model = PitVQAPlus(mora_base_rank=mora_base_rank, mora_rank_coefficients=mora_coeff,
+                       lora_rank=lora_rank, lora_alpha=lora_alpha, dropout=dropout)
     checkpoint = torch.load(model_path, map_location='cpu')
     model.load_state_dict(checkpoint)
     model = model.to(device)
