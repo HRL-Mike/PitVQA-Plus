@@ -129,9 +129,9 @@ class VectorMoLoRAInitializer:
         print("Vector MoRA params initialized!")
         return self.model
 
-class PitVQAGen(nn.Module):
+class PitVQAPlus(nn.Module):
     def __init__(self, mora_base_rank=8, mora_rank_coefficients=None, lora_rank=None, lora_alpha=None, dropout=0.1):
-        super(PitVQAGen, self).__init__()
+        super(PitVQAPlus, self).__init__()
 
         if mora_rank_coefficients is None or lora_rank is None or lora_alpha is None:
             print('Wrong hyperparameters.')
