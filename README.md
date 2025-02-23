@@ -35,7 +35,7 @@ This work is an extension of our previous work [PitVQA](https://github.com/mobar
 
 ## How to Download PitVQA Dataset
 PitVQA++ pretrained weights and open-ended PitVQA annotation will be released upon acceptance og the paper. 
-The dataset derived from our previous MICCAI work PitVQA close-ended dataset of VQA classification which can be found as:
+The dataset derived from our previous MICCAI work PitVQA close-ended dataset of VQA classification which can be found below:<br>
 Please download full [PitVQA dataset](https://doi.org/10.5522/04/27004666) from UCL RDR portal.  
 The original videos were taken and preprocessed from [MICCAI PitVis challenge](https://rdr.ucl.ac.uk/articles/dataset/PitVis_Challenge_Endoscopic_Pituitary_Surgery_videos/26531686)
 
