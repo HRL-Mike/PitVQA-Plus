@@ -12,11 +12,10 @@
 </div> 
 
 ## PitVQA++ Network
-<!-- 
 <div align='center'>
 <img src='https://github.com/HRL-Mike/PitVQA-Plus/blob/main/assets/model_archi.png' width=750>
 </div>
--->
+
 
 ## Open-ended PitVQA Dataset
 
