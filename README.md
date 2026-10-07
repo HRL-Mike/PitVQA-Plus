@@ -5,10 +5,8 @@
 </samp> 
 
 ---
-| **[[```arXiv```](<https://arxiv.org/abs/2502.14149>)]** | **[[```Paper```](<https://ieeexplore.ieee.org/document/11475168>)]** | **[[```Colab Demo```](<https://github.com/>)]**|
-|:-------------------:|:-------------------:|:-------------------:|
-    
-The dataset and pretrained weights will be released upon acceptance.
+| **[[```arXiv```](<https://arxiv.org/abs/2502.14149>)]** | **[[```Paper```](<https://ieeexplore.ieee.org/document/11475168>)]** |
+|:-------------------:|:-------------------:|
 ---
 
 </div> 
