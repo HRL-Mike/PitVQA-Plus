@@ -4,7 +4,6 @@
 <h2> PitVQA++: Vector Matrix-Low-Rank Adaptation for Open-Ended Visual Question Answering in Pituitary Surgery </h2>
 </samp> 
 
----
 | **[[```arXiv```](<https://arxiv.org/abs/2502.14149>)]** | **[[```Paper```](<https://ieeexplore.ieee.org/document/11475168>)]** |
 |:-------------------:|:-------------------:|
 ---
