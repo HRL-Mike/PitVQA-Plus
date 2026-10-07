@@ -1,11 +1,11 @@
 <div align="center">
 
 <samp>
-<h2> PitVQA++: Vector Matrix-Low-Rank Adaptation for Open-Ended Visual Question Answering in Pituitary Surgery </h1>
+<h2> PitVQA++: Vector Matrix-Low-Rank Adaptation for Open-Ended Visual Question Answering in Pituitary Surgery </h2>
 </samp> 
 
 ---
-| **[[```arXiv```](<https://arxiv.org/>)]** | **[[```Paper```](<https://link.springer.com/>)]** | **[[```Colab Demo```](<https://github.com/>)]**|
+| **[[```arXiv```](<https://arxiv.org/abs/2502.14149>)]** | **[[```Paper```](<https://ieeexplore.ieee.org/document/11475168>)]** | **[[```Colab Demo```](<https://github.com/>)]**|
 |:-------------------:|:-------------------:|:-------------------:|
     
 The dataset and pretrained weights will be released upon acceptance.
