@@ -69,7 +69,7 @@ If you use the data and code for your research, please cite our paper.
 ```bibtex
 @article{he2026pitvqa++,
   title={PitVQA++: Vector Matrix-Low-Rank Adaptation for Open-Ended Visual Question Answering in Pituitary Surgery},
-  author={He, Runlong and Khan, Danyal Z. and Mazomenos, Evangelos B. and Marcus, Hani J. and Stoyanov, Danail and Clarkson, Matthew J. and Islam, Mobarakol},
+  author={He, Runlong and Khan, Danyal Z. and Mazomenos, Evangelos B. and Marcus, Hani J. and Stoyanov, Danail and Clarkson, Matthew J. and Hoque, Mobarak I.},
   journal={IEEE Transactions on Medical Imaging},
   volume={45},
   number={7},
