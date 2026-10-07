@@ -12,10 +12,9 @@
 </div> 
 
 ## PitVQA++ Network
-Update later
 <!-- 
 <div align='center'>
-<img src='https://github.com/mobarakol/PitVQA/blob/main/assets/model_archi_3.png' width=750>
+<img src='https://github.com/HRL-Mike/PitVQA-Plus/blob/main/assets/model_archi.png' width=750>
 </div>
 -->
 
